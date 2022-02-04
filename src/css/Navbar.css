@@ -1,0 +1,45 @@
+.lightMode{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    box-shadow: -1px 1px 8px 0px rgba(92, 48, 48, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.darkMode{
+    background-color: #21232A;
+    color: white;
+    width: 100%;
+    height: auto;
+    box-shadow: -1px 1px 8px 0px rgba(92, 48, 48, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.NavText ,.NavBtn{
+    margin: 0 1rem;
+}
+
+.NavText p{
+    margin: .3rem 0 ;
+}
+
+.NavText p:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.NavText p:nth-child(2){
+    font-style: italic;
+}
+
+.NavBtn button{
+    padding: .4rem;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 600;
+}
